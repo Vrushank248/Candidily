@@ -13,7 +13,7 @@ const connection: ConnectionObject ={}
 async function dbConnect() : Promise<void> {
 
     if(connection.isConnected){
-        console.log("DB Already Conected");
+        console.log("DB Already Connected");
         return
     }else{
         try {
